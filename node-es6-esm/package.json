@@ -1,0 +1,17 @@
+{
+  "name": "node-es6-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "prod": "export NODE_ENV=production||set NODE_ENV=production&&npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "esm": "^3.0.84"
+  }
+}
