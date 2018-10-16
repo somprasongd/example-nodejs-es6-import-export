@@ -16,7 +16,7 @@ Example how to use ES6 import/export in nodejs
 {
   "presets": [
     [
-      "env",
+      "@babel/preset-env",
       {
         "targets": {
           "node": "current"
